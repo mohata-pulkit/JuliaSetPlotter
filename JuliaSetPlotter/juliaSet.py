@@ -16,6 +16,8 @@ def julia_set(h_range, w_range, max_iterations, a):
 
 	return iterations_till_divergence
 
+
+
 a = 0.355 + 0.355j
 
 plottedSet = julia_set(8192, 8192, 256, a)
